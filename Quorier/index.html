@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+  <!DOCTYPE html>
+  <html lang="en" data-theme="light">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courier Service</title>
+  
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  
+    <!-- DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Oxanium:wght@200..800&family=Poppins:wght@100..900&family=Roboto:wght@100..900&display=swap');
+  
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+
+
+  </head>
+
+  <body class="bg-base-100">
+    <!-- Navbar -->
+    <nav
+      class="navbar bg-base-100 shadow-md px-6 py-3 flex justify-between items-center"
+    >
+      <!-- Logo Section -->
+      <div class="flex items-center space-x-2">
+        <img
+          src="pictures/Frame 3.png"
+          alt="Quriarbox Logo"
+          class="h-10 w-10"
+        />
+        <a class="text-xl font-bold text-[#F95C19]">Quriarbox</a>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden lg:flex space-x-4">
+        <a class="btn btn-ghost">Home</a>
+        <a class="btn btn-ghost">Our Services</a>
+        <a class="btn btn-ghost">About Us</a>
+        <a class="btn btn-ghost">What's New?</a>
+        <a class="btn bg-[#F95C19] text-white border-0">Contact Us</a>
+      </div>
+
+      <!-- Mobile Navigation (Dropdown) -->
+      <div class="lg:hidden dropdown dropdown-end">
+        <div tabindex="0" role="button" class="btn btn-ghost">
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            ></path>
+          </svg>
+        </div>
+        <ul
+          tabindex="0"
+          class="dropdown-content menu p-2 shadow bg-white rounded-box w-52 right-0 mt-3 z-[1]"
+        >
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">What's New?</a></li>
+          <li><a class="bg-[#F95C19] text-white" href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="container mx-auto px-6 py-20 flex flex-col lg:flex-row items-center"
+    >
+      <div class="w-full lg:w-1/2">
+        <h1 class="text-4xl font-bold">
+          A trusted provider of
+          <span class="text-[#F95C19]">courier services.</span>
+        </h1>
+        <p class="mt-4 text-gray-600">
+          We deliver your products safely to your home in a reasonable time.
+        </p>
+        <button class="btn bg-[#F95C19] border-0 mt-6">Get Started →</button>
+      </div>
+      <div class="w-full lg:w-1/2 mt-10 lg:mt-0">
+        <img
+          src="pictures/banner image.png"
+          alt="Courier Illustration"
+          class="w-full max-w-screen-xl mx-auto"
+        />
+      </div>
+    </section>
+
+    <section class="container mx-auto px-6 py-16">
+      <h3 class="text-center text-error font-bold text-xl text-[#F95C19]">
+        SERVICES
+      </h3>
+      <h5 class="text-center text-3xl font-bold mt-2">Our services for you</h5>
+
+      <div class="grid md:grid-cols-3 gap-8 mt-10">
+        <!-- Business Services -->
+        <div class="bg-base-100 shadow-lg rounded-lg p-6 text-center">
+          <div class="flex justify-center">
+            <img src="pictures/iCON.svg" alt="Business Services" class="w-16" />
+          </div>
+          <h3 class="text-xl font-semibold mt-4">Business Services</h3>
+          <p class="text-gray-600 mt-2">
+            We give you complete reliable delivery for your company. We will
+            take full responsibility for the deliveries.
+          </p>
+          <ul class="text-left mt-4 text-gray-600">
+            <li><span class="text-[#F95C19]">•</span> Corporate goods</li>
+            <li><span class="text-[#F95C19]">•</span> Shipment</li>
+            <li><span class="text-[#F95C19]">•</span> Accessories</li>
+          </ul>
+          <button class="btn bg-[#F95C19] border-0 mt-6">Learn more</button>
+        </div>
+
+        <!-- Statewide Services -->
+        <div class="bg-base-100 shadow-lg rounded-lg p-6 text-center">
+          <div class="flex justify-center">
+            <img
+              src="pictures/Icon2.svg"
+              alt="Statewide Services"
+              class="w-16"
+            />
+          </div>
+          <h3 class="text-xl font-semibold mt-4">Statewide Services</h3>
+          <p class="text-gray-600 mt-2">
+            Offering home delivery around the city, where your products will be
+            at your doorstep within 48-72 hours.
+          </p>
+          <ul class="text-left mt-4 text-gray-600">
+            <li><span class="text-[#F95C19]">•</span> Personal items</li>
+            <li><span class="text-[#F95C19]">•</span> Parcels</li>
+            <li><span class="text-[#F95C19]">•</span> Documents</li>
+          </ul>
+          <button class="btn bg-[#F95C19] border-0 mt-6">Learn more</button>
+        </div>
+
+        <!-- Personal Services -->
+        <div class="bg-base-100 shadow-lg rounded-lg p-6 text-center">
+          <div class="flex justify-center">
+            <img
+              src="pictures/Icon3.svg"
+              alt="Personal Services"
+              class="w-16"
+            />
+          </div>
+          <h3 class="text-xl font-semibold mt-4">Personal Services</h3>
+          <p class="text-gray-600 mt-2">
+            You can trust us to safely deliver your most sensitive documents to
+            the specific area in a short time.
+          </p>
+          <ul class="text-left mt-4 text-gray-600">
+            <li><span class="text-[#F95C19]">•</span> Gifts</li>
+            <li><span class="text-[#F95C19]">•</span> Package</li>
+            <li><span class="text-[#F95C19]">•</span> Documents</li>
+          </ul>
+          <button class="btn bg-[#F95C19] border-0 mt-6">Learn more</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-6 py-16">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <!-- Awards Won -->
+        <div>
+          <img
+            src="pictures/iconspace_Trophy_25px.png"
+            alt="Award Icon"
+            class="mx-auto w-12 h-12"
+          />
+          <div class="text-4xl font-bold text-error text-[#F95C19]">26+</div>
+          <p class="text-gray-600 font-bold">Awards won</p>
+        </div>
+
+        <!-- States Covered -->
+        <div>
+          <img
+            src="pictures/IconSpace_Map_24Px.png"
+            alt="Map Icon"
+            class="mx-auto w-12 h-12"
+          />
+          <div class="text-4xl font-bold text-error text-[#F95C19]">65+</div>
+          <p class="text-gray-600 font-bold">States covered</p>
+        </div>
+
+        <!-- Happy Clients -->
+        <div>
+          <img
+            src="pictures/LINE---COLOR.png"
+            alt="Happy Client Icon"
+            class="mx-auto w-12 h-12"
+          />
+          <div class="text-4xl font-bold text-error text-[#F95C19]">689K+</div>
+          <p class="text-gray-600 font-bold">Happy clients</p>
+        </div>
+
+        <!-- Goods Delivered -->
+        <div>
+          <img
+            src="pictures/iconspace_Business-Bag_25px.png"
+            alt="Delivery Icon"
+            class="mx-auto w-12 h-12"
+          />
+          <div class="text-4xl font-bold text-error text-[#F95C19]">130M+</div>
+          <p class="text-gray-600 font-bold">Goods delivered</p>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto px-6 py-16">
+      <div
+        class="max-w-3xl mx-auto bg-base-100 shadow-xl p-8 border border-gray-200 rounded-lg"
+      >
+        <h2
+          class="text-center text-error font-bold text-lg uppercase text-[#F95C19]"
+        >
+          Testimonial
+        </h2>
+        <h3 class="text-center text-2xl font-bold text-gray-800 mt-2">
+          Our Awesome Clients
+        </h3>
+        <div class="mt-6 bg-gray-50 p-6 rounded-lg shadow-sm">
+          <p class="text-error text-lg font-semibold text-[#F95C19]">
+            Fantastic service!
+          </p>
+          <p class="text-gray-700 mt-2">
+            I purchased a phone from an e-commerce site, and this courier
+            service provider assisted me in getting it delivered to my home. I
+            received my phone within one day, and I was really satisfied with
+            their service when I received it. They are really quick and
+            dependable. They give me the option of real-time delivery status,
+            which allows me to track the progress of my goods delivery. I get a
+            lot of questions from call center support and key account managers.
+            They come highly recommended. Confidently say that they are really
+            reliable.
+          </p>
+          <div class="flex items-center justify-center mt-4">
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating"
+                class="mask mask-star-2 bg-error"
+                checked
+              />
+              <input
+                type="radio"
+                name="rating"
+                class="mask mask-star-2 bg-error"
+                checked
+              />
+              <input
+                type="radio"
+                name="rating"
+                class="mask mask-star-2 bg-error"
+                checked
+              />
+              <input
+                type="radio"
+                name="rating"
+                class="mask mask-star-2 bg-error"
+                checked
+              />
+              <input
+                type="radio"
+                name="rating"
+                class="mask mask-star-2 bg-error"
+                checked
+              />
+            </div>
+          </div>
+          <div class="flex items-center justify-center mt-4">
+            <img
+              class="w-12 h-12 rounded-full"
+              src="https://randomuser.me/api/portraits/men/1.jpg"
+              alt="User"
+            />
+            <div class="ml-4">
+              <p class="text-gray-900 font-bold">Yves Tanguy</p>
+              <p class="text-gray-500 text-sm">Chief Executive, DLF</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto px-6 py-16">
+      <div
+        class="bg-base-100 shadow-xl p-8 border border-gray-200 rounded-lg flex flex-col md:flex-row items-center"
+      >
+        <!-- Left Side (Illustration & Text) -->
+        <div class="md:w-1/2 text-center md:text-left">
+          <img
+            src="pictures/Illustration.png"
+            alt="Request a Callback"
+            class="mx-auto md:mx-0"
+            style="width: 343.71px; height: 256.61px"
+          />
+          <h4 class="text-error font-bold text-lg mt-4 text-[#F95C19]">
+            REQUEST A CALLBACK
+          </h4>
+          <h3 class="text-2xl font-bold text-gray-800 mt-2">
+            We will contact in the shortest time.
+          </h3>
+          <p class="text-gray-600 mt-2">Monday to Friday, 9am-5pm.</p>
+        </div>
+
+        <!-- Right Side (Form) -->
+        <div class="md:w-1/2 mt-6 md:mt-0">
+          <form class="bg-gray-50 p-6 rounded-lg shadow-sm">
+            <input
+              type="text"
+              placeholder="Name"
+              class="input input-bordered w-full mb-4"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              class="input input-bordered w-full mb-4"
+            />
+            <textarea
+              placeholder="Message"
+              class="textarea textarea-bordered w-full mb-4"
+            ></textarea>
+            <button class="btn bg-[#F95C19] border-0 w-full">
+              Send Message →
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <footer class="bg-gray-900 text-gray-300 py-10">
+    <div class="container mx-auto px-6 max-w-screen-xl">
+      <!-- Top Section: Newsletter Subscription -->
+      <div
+        class="flex flex-col md:flex-row justify-between items-center border-b border-gray-700 pb-6"
+      >
+        <div class="text-center md:text-left">
+          <h3 class="text-2xl font-bold text-white">
+            Get an <span class="text-orange-500">update</span> every week
+          </h3>
+          <p class="text-gray-400 mt-2">
+            We ensure that your product is delivered safely, at the right
+            location & time.
+          </p>
+        </div>
+        <div class="mt-4 md:mt-0 flex items-center w-full md:w-auto">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="w-full md:w-64 px-4 py-2 bg-gray-800 border border-gray-600 text-gray-300 rounded-md focus:outline-none focus:border-orange-500"
+          />
+          <button
+            class="ml-2 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition bg-[#F95C19]"
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+
+      <!-- Bottom Section: Footer Links -->
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-8 text-center md:text-left"
+      >
+        <!-- Logo Section -->
+        <div class="flex items-center space-x-2">
+          <img src="pictures/Frame 3.png" alt="Quriarbox Logo" class="h-10 w-10" />
+          <a class="text-xl font-bold text-[#F95C19]">Quriarbox</a>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold text-white">Other Links</h4>
+          <ul class="mt-2 text-gray-400 space-y-1">
+            <li><a href="#" class="hover:text-white">Blogs</a></li>
+            <li><a href="#" class="hover:text-white">Movers Website</a></li>
+            <li><a href="#" class="hover:text-white">Traffic Update</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold text-white">Services</h4>
+          <ul class="mt-2 text-gray-400 space-y-1">
+            <li><a href="#" class="hover:text-white">Corporate Goods</a></li>
+            <li><a href="#" class="hover:text-white">Artworks</a></li>
+            <li><a href="#" class="hover:text-white">Documents</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold text-white">Customer Care</h4>
+          <ul class="mt-2 text-gray-400 space-y-1">
+            <li><a href="#" class="hover:text-white">About Us</a></li>
+            <li><a href="#" class="hover:text-white">Contact Us</a></li>
+            <li><a href="#" class="hover:text-white">Get Update</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div
+        class="text-center text-gray-500 text-sm mt-8 border-t border-gray-700 pt-4"
+      >
+        <p>All Rights Reserved &copy; Your Company, 2025</p>
+        <p>
+          Made with ❤️ by
+          <a href="#" class="text-orange-500 hover:underline">Noman</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</html>
