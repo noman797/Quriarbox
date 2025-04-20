@@ -32,18 +32,6 @@
 
 You can view the live demo of the project [here](https://quriers.netlify.app/).
 
-
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add new feature'`).
-5. Push to your branch (`git push origin feature-name`).
-6. Open a pull request to the `main` branch.
-
 <p align="center">
   Made with ❤️ by Abdullah Al Noman
 </p>
