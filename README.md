@@ -24,7 +24,7 @@
 | Layer       | Technology                      |
 |-------------|----------------------------------|
 | Frontend    | HTML, CSS, JavaScript            |
-| UI Library  | (Optional: Tailwind CSS, Bootstrap) |
+| UI Library  | (Tailwind CSS) |
 
 
 
